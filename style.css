@@ -380,3 +380,24 @@ section.show{
     }
 
 }
+.project-buttons{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
+}
+
+.project-buttons a{
+    text-decoration:none;
+    background:#38bdf8;
+    color:#0f172a;
+    padding:10px 18px;
+    border-radius:8px;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.project-buttons a:hover{
+    transform:translateY(-3px);
+    opacity:.9;
+}
