@@ -68,6 +68,7 @@ nav ul li a:hover{
 .hero h1{
     font-size:60px;
     margin-bottom:10px;
+    text-shadow:0 0 25px rgba(56,189,248,.35);
 }
 
 .hero span{
@@ -222,4 +223,26 @@ section{
 
 .project-card a:hover{
     text-decoration:underline;
+}
+/* Animated Background */
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:
+        radial-gradient(circle at top left, rgba(56,189,248,.15), transparent 25%),
+        radial-gradient(circle at bottom right, rgba(59,130,246,.12), transparent 25%);
+    z-index:-1;
+    animation:floatBg 10s ease-in-out infinite alternate;
+}
+
+@keyframes floatBg{
+    from{
+        transform:translateY(0);
+    }
+
+    to{
+        transform:translateY(-15px);
+    }
 }
