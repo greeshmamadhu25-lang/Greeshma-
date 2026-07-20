@@ -292,3 +292,23 @@ footer{
 .profile img:hover{
     transform:scale(1.05);
 }
+/* Social Links */
+
+.socials{
+    margin-top:35px;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.socials a{
+    color:#cbd5e1;
+    text-decoration:none;
+    font-weight:500;
+    transition:.3s;
+}
+
+.socials a:hover{
+    color:#38bdf8;
+}
