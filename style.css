@@ -315,3 +315,7 @@ footer{
 .socials a:hover{
     color:#38bdf8;
 }
+section.show{
+    opacity:1;
+    transform:translateY(0);
+}
