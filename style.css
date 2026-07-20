@@ -319,3 +319,32 @@ section.show{
     opacity:1;
     transform:translateY(0);
 }
+.gradient-name{
+
+    background:linear-gradient(
+        90deg,
+        #38bdf8,
+        #818cf8,
+        #38bdf8
+    );
+
+    background-size:200%;
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    animation:gradientMove 5s linear infinite;
+
+}
+
+@keyframes gradientMove{
+
+    from{
+        background-position:0%;
+    }
+
+    to{
+        background-position:200%;
+    }
+
+}
