@@ -106,6 +106,9 @@ nav ul li a:hover{
 
 section{
     padding:100px 10%;
+    opacity:0;
+    transform:translateY(50px);
+    transition:all .8s ease;
 }
 
 section h2{
