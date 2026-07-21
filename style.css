@@ -179,6 +179,21 @@ section h2{
 /* Mobile */
 
 @media(max-width:768px){
+    @media (max-width: 768px) {
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;   /* Keeps everything on one line */
+    gap: 12px;
+    padding: 0;
+}
+
+nav ul li a {
+    font-size: 18px;
+}
+
+}
 
 nav{
     flex-direction:column;
