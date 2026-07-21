@@ -401,3 +401,17 @@ section.show{
     transform:translateY(-3px);
     opacity:.9;
 }
+@media (max-width:768px){
+
+nav{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+}
