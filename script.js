@@ -6,7 +6,7 @@ const observer = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             entry.target.classList.add("show");
         }
-    });
+    }); 
 });
 
 sections.forEach((section) => {
