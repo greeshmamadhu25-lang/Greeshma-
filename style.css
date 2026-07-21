@@ -33,7 +33,14 @@ nav{
     font-weight:700;
     color:#38bdf8;
 }
+/* Hamburger Menu */
 
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:#38bdf8;
+    cursor:pointer;
+}
 nav ul{
     display:flex;
     list-style:none;
@@ -378,26 +385,28 @@ section.show{
 @media (max-width:768px){
 
 nav{
-    flex-direction:column;
-    gap:10px;
-    padding:15px 5%;
+    padding:15px 8%;
+}
+
+.menu-toggle{
+    display:block;
 }
 
 nav ul{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    text-align:center;
+    margin-top:15px;
+    gap:15px;
+}
+
+nav ul.active{
     display:flex;
-    flex-wrap:nowrap;
-    justify-content:center;
-    align-items:center;
-    gap:8px;
-    padding:0;
 }
 
 nav ul li{
     margin:0;
-}
-
-nav ul li a{
-    font-size:13px;
 }
 
 .hero h1{
