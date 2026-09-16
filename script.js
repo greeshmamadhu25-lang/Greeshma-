@@ -19,7 +19,7 @@ const text = [
     "B.Voc Information Technology Graduate",
     "Web Developer",
     "Flutter Developer",
-    "Front-End Enthusiast"
+    "Front-End Developer"
 ];
 
 let textIndex = 0;
